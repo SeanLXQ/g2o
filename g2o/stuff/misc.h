@@ -110,6 +110,7 @@ inline number_t rad2deg(number_t rad)
 
 /**
  * normalize the angle
+ *将角度转化到-PI到PI之间
  */
 inline number_t normalize_theta(number_t theta)
 {
